@@ -1,0 +1,718 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0 auto; 
+  text-align: center;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-color:  #fdfcfc;
+  letter-spacing: -0.02em;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  
+}
+
+
+/* Nav bar */
+
+.navbar__logo img{
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 10em 0 4em;
+}
+
+.navbar__menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+  padding: 2.5em 0;
+  position: fixed;
+  margin: 0 auto;
+  background-color: #e3fdfd;
+}
+
+
+.navbar__menu a {
+  font-size: 1.3em;
+  line-height: 20px;
+  color: #57979b;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  padding: 14px 16px;
+  transition: font-size 150ms, font-weight 150ms;
+}
+
+.navbar__menu a:hover {
+
+  color:#2a425e;
+  font-size: 1.3em;
+  font-weight: 600;
+  border-bottom: 2px solid #2a425e;
+}
+
+li {
+  list-style: none;
+}
+
+
+/* Main */
+
+.main_content {
+  margin: 0 5em;
+  
+}
+
+.feature1 img
+{
+  width:35%;
+  max-height: 30%;
+  border-radius: 10px;
+}
+
+.feature2 img {
+  width: 40%;
+  border-radius: 10px;
+}
+
+.feature1, 
+.feature2 {
+  display: flex;
+  padding-top: 20px;
+}
+
+.main,
+.covid_alert {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; 
+
+}
+
+.main h1,
+.covid_alert h1{
+  display: inline-block;
+  margin: 0.9em auto 0.5em;
+  padding: 10em auto 0;
+  align-items: center;
+}
+
+.main p, 
+.covid_alert p{ 
+  flex-wrap: nowrap;
+  margin: 2em 8em;
+
+}
+
+.covid_alert h1 {
+  font-size:xx-large;
+  padding-top: 10px;
+}
+
+.feature3 {
+  background-color: #e4f9f5 ;
+  display: flex;
+  flex-direction: row;
+  margin-top: 7em;
+  justify-content: space-around;
+  padding: 3em;
+  border-radius: 6px;
+}
+
+.feature3 div {
+  width: 230px;
+}
+
+.feature3 i {
+  font-size: 55px;
+  padding: 15px 0 25px;
+}
+
+.feature3 a {
+  text-decoration: none;
+  color: black;
+  transition: all 300ms ease;
+}
+
+.feature3 a:hover i {
+  transform: scale(1.1);
+  color: #24cec0;
+}
+
+/* Main Contact Part */
+
+.main_contact_h1 {
+  margin: 1.5em 0;
+}
+
+.main_contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.main_contact address {
+  padding: 2.5em;
+}
+
+.contact1,
+.contact2 {
+  border: 2.5px solid #24cec0;
+  border-radius: 6px ;
+  margin: 0 1.3em;
+}
+
+.contact1 h2,
+.contact2 h2 {
+  margin-top: 15px ;
+}
+
+.contact1 a,
+.contact2 a{
+display: block;
+text-decoration: none;
+color: black;
+font-size: large;
+padding-bottom: 10px;
+}
+
+.contact1 i,
+.contact2 i{
+  font-size: 25px;
+  padding: 5px;
+  color: #24cec0;
+}
+
+/* Footer */
+
+footer {
+  font-size: large;
+  color: #40514e;
+  
+}
+
+.footer {
+  padding: 40px 0 10px;
+}
+
+/* Dental Service */
+
+.dental_main img{
+  width: 50%;
+  border-radius: 6px;
+  padding-top: 15px;
+}
+
+.dental_main h1,
+.cosmetic_main h1,
+.contact_main h1 {
+  padding: 30px 0px;
+  background-color: #a6e3e9;
+}
+
+.dental_main h2 {
+  padding: 20px;
+}
+
+.dental_main h2:hover {
+  color: #29c2b5;
+}
+
+.dental_main p,
+.cosmetic_main p {
+  width: 450px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.odd-part {
+  background-color: #f6f6f6;
+}
+
+/* Testimonial */
+
+
+.testimonial h1 {
+  font-size: xx-large;
+  padding-bottom: 20px;
+  
+}
+
+.testimonial_top {
+  background-color:#a6e3e9;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0 28px;
+  align-items: center;
+
+}
+
+.testimonial1, 
+.testimonial2,
+.testimonial3 {
+  width: 300px;
+  height: 420px;
+  padding-top: 30px;
+  margin-top: 15px; 
+  border: #00adb5 2.5px solid;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.testimonials p {
+  width: 220px;
+  padding-bottom: 15px;
+}
+
+.testimonials img {
+  width: 15%;
+}
+
+.name {
+  font-weight: 700;
+  color: #00b8a9;
+}
+
+/* Cosmetics */
+
+.cosmetic_main img{
+  height: 290px;
+  width: 500px;
+  padding: 15px 0;
+}
+
+/* Contact part 1 */
+
+.contact_main img {
+  display: block;
+  width: 320px;
+  margin: 60px 60px 50px 0 ;
+  height: 90%;
+  border-radius: 12px;
+}
+
+.mailform {
+  display: flex;
+  justify-content: space-around;
+  width: 45em;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.2em 0;
+  
+}
+
+.mailform h2 {
+  display: block;
+  height: 150px;
+  height: 80px;
+  text-align:center;
+  padding-top: 2.1em;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.userinfo form label{
+  padding: 15px 0;
+}
+
+.userinfo form input {
+  width: 250px;
+}
+
+
+.userinfo form textarea {
+  width: 250px;
+  padding:  40px;
+}
+
+.submit {
+  margin-top: 14px;
+  padding: 7px 15px;
+  background-color: #a8e6cf;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+
+
+/* Contact part 2 */
+
+.second-part-contact {
+  background-color: #faf9f9;
+}
+
+.second-part-contact img {
+  height: 240px;
+  padding-top: 5em;
+}
+
+.second-part-contact h1{
+  margin: 15px;
+  font-size: xx-large;
+
+}
+
+.second-part-contact h2{
+  padding: 0.5em 0;
+  color: #52616b;
+  font-weight: 600;
+}
+
+.carrigaline,
+.glanmire {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.carrigaline_section , 
+.glanmire_section {
+  width: 660px;
+  height: 300px;
+  border: 2.5px solid #00adb5; 
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  
+}
+
+.carrigaline div,
+.glanmire div {
+  width: 200px;
+  height: 250px;
+} 
+
+.carrigaline dt,
+.glanmire dt {
+  font-size: larger;
+  padding-bottom: 10px;
+} 
+
+.carrigaline dd,
+.glanmire dd {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+} 
+
+.location,
+.phone,
+.hours {
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+.carrigaline i,
+.glanmire i {
+  font-size: 50px;
+  color: #52616b;
+  padding-bottom: 20px;
+  transform: 3000ms ease;
+}
+
+.carrigaline i:hover,
+.glanmire i:hover {
+  color: #00adb5;
+  transform: scale(1.1);
+}
+
+.carrigaline a,
+.glanmire a {
+  text-decoration: none;
+  color: black;
+}
+
+.second-part-contact h2:hover{
+  color: #00adb5;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 768px){ 
+
+/* Index.html */
+
+  .navbar, 
+  .main_content,
+  .main_contact,
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+  }
+
+  .navbar__logo img {
+    width: 23em;
+    padding: 13em 0 2.5em;
+    margin: 0 auto;
+    border-radius: 40%;
+    
+  }
+
+.navbar__menu {
+  width: 100%;
+  height: 20vh;
+  flex-direction: column;
+  padding: 11px 0;
+  justify-content: center;
+  text-align: center;
+  background-color: #c6fae7;
+  
+}
+
+.navbar__menu a {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  justify-content: center;
+  margin: 0 10px;
+  padding: 0 60px;
+}
+
+.navbar__menu a:hover {
+  background-color: rgba(29, 228, 188, 0.3);
+  border-radius: 40px;
+  
+}
+
+.main_contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+
+.feature1,
+.feature2 {
+  flex-direction: column;
+  width: 80vw;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.feature1 img,
+.feature2 img
+{
+  width:100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.feature2 img {
+  display: none;
+}
+
+.main h1,
+.covid_alert h1{
+  margin: 10px 0 15px;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+
+.covid_alert {
+  border-top: 1.5px solid skyblue;
+}
+
+
+.main p, 
+.covid_alert p { 
+  display: block;
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: -0.04em;
+}
+
+.feature3 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.feature3 i {
+  font-size: 3em;
+}
+
+.feature3 h2 {
+  font-size: large;
+}
+
+.feature3 p {
+  padding-bottom: 1em;
+  border-bottom: 2px solid white;
+}
+
+.main_contact_h1 {
+  font-size: 1.5em;
+  margin: 1.7em 0;
+}
+
+.contact1,
+.contact2 {
+width: 90%;
+justify-content: center;
+align-items: center;
+margin-bottom: 2em;
+}
+
+.main_contact iframe{
+  width: 90%;
+  
+}
+
+.footer {
+  padding: 1em 0 0.5em;
+  font-size: smaller;
+}
+
+/* Dental part */
+
+.dental_main h1 {
+  font-size: 1.5em;
+}
+
+.dental_main img {
+  width: 60%;
+}
+
+.dental_main p {
+  width: 85%;
+}
+
+.testimonial img {
+  width: 20%;
+}
+
+/* Cosmetic part */
+
+.cosmetic_main h1 {
+  font-size: 1.4em;
+}
+
+.cosmetic_main img{
+  width: 80%;
+  height: 40%;
+}
+
+.cosmetic_main h2 {
+  font-size: 1.3em;
+  margin-bottom: 0.2em;
+}
+
+.cosmetic_main p {
+  width: 90%;
+}
+
+/* Contact */
+
+.contact_main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact_main h1,
+.second-part-contact h1 {
+  font-size: 1.4em;
+}
+
+.mailform {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em 0;
+  width: 100%;
+}
+
+.contact_main img {
+  width: 30%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.userinfo h2 {
+  padding: 1em;
+}
+
+.second-part-contact img{
+  height: 25vh;
+  margin-top: 2.5em;
+}
+
+
+
+.second-part-contact h2 {
+  font-size: 1.3em;
+}
+
+.carrigaline,
+.glanmire {
+flex-direction: column;
+flex-wrap: nowrap;
+}
+
+.carrigaline_section, 
+.glanmire_section {
+
+  width: 65%;
+  height: 80%;
+}
+
+.location,
+.phone,
+.hours {
+  height: 30%;
+} 
+
+.carrigaline i,
+.glanmire i {
+  font-size: 40px;
+
+}
+
+}
