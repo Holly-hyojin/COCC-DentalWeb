@@ -383,10 +383,12 @@ footer {
 }
 
 .second-part-contact h2{
-  padding: 0.5em 0;
-  color: #52616b;
+  padding: 0.6em 0;
+  color: #00adb5;
   font-weight: 600;
+  border-bottom: 2.5px solid #00adb5;
 }
+
 
 .carrigaline,
 .glanmire {
@@ -399,8 +401,8 @@ footer {
 
 .carrigaline_section , 
 .glanmire_section {
-  width: 660px;
-  height: 300px;
+  width: 45em;
+  height: 20em;
   border: 2.5px solid #00adb5; 
   border-radius: 10px;
   justify-content: center;
@@ -455,24 +457,30 @@ footer {
   color: black;
 }
 
-.second-part-contact h2:hover{
-  color: #00adb5;
-}
-
 
 .social h1 {
   padding: 1em 0;
 }
-.social i {
+
+.social_icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 15em;
+}
+
+.social_icon i {
   font-size: 4em;
   color: #273c75;
   padding-bottom: 0.4em;
   margin: 0 8px;
 }
 
+
 .social i:hover {
   color: #00adb5;
 } 
+
 
 /* Media Query */
 
@@ -711,15 +719,19 @@ flex-wrap: nowrap;
 
 .carrigaline_section, 
 .glanmire_section {
-
-  width: 65%;
-  height: 80%;
+  width: 60%;
+  height: 70%;
 }
 
-.location,
-.phone,
-.hours {
-  height: 30%;
+.second-part-contact .location,
+.second-part-contact .phone,
+.second-part-contact .hours {
+  height: 200px;
+} 
+
+.carrigaline dd,
+.glanmire dd {
+  font-size: 0.95em;
 } 
 
 .carrigaline i,
@@ -728,9 +740,13 @@ flex-wrap: nowrap;
 }
 
 .social h1 {
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
-.social i {
+
+.social_icon {
+  width: 10em;
+}
+.social_icon i {
   font-size: 2.9em;
   padding-bottom: 0.2em;
 }
