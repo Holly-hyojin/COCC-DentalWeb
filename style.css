@@ -365,7 +365,6 @@ footer {
 }
 
 
-
 /* Contact part 2 */
 
 .second-part-contact {
@@ -459,6 +458,21 @@ footer {
 .second-part-contact h2:hover{
   color: #00adb5;
 }
+
+
+.social h1 {
+  padding: 1em 0;
+}
+.social i {
+  font-size: 4em;
+  color: #273c75;
+  padding-bottom: 0.4em;
+  margin: 0 8px;
+}
+
+.social i:hover {
+  color: #00adb5;
+} 
 
 /* Media Query */
 
@@ -601,8 +615,7 @@ margin-bottom: 2em;
 }
 
 .main_contact iframe{
-  width: 90%;
-  
+  width: 90%; 
 }
 
 .footer {
@@ -712,7 +725,14 @@ flex-wrap: nowrap;
 .carrigaline i,
 .glanmire i {
   font-size: 40px;
+}
 
+.social h1 {
+  font-size: 1.4em;
+}
+.social i {
+  font-size: 2.9em;
+  padding-bottom: 0.2em;
 }
 
 }
