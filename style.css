@@ -459,20 +459,21 @@ footer {
 
 .social h1 {
   padding: 1em 0;
+  font-size: 1.5em;
 }
 
 .social_icon {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 15em;
+  width: 14em;
 }
 
 .social_icon i {
-  font-size: 4em;
+  font-size: 3.5em;
   color: #273c75;
   padding-bottom: 0.4em;
-  margin: 0 8px;
+  margin: 0 5px;
 }
 
 
