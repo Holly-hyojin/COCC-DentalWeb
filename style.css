@@ -17,6 +17,20 @@ body{
   
 }
 
+/* client side script */
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #f9ca24;
+  border: solid 0.5px #ffff;
+}
+
+#panel {
+  padding: 50px;
+  background-color: #f0932b;
+  border: none;
+}
 
 /* Nav bar */
 
@@ -198,8 +212,11 @@ padding-bottom: 10px;
 
 footer {
   font-size: large;
-  color: #40514e;
-  
+  color: #40514e;  
+}
+
+footer img {
+  display: block;
 }
 
 .footer {
